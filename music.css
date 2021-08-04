@@ -17,7 +17,7 @@ body{
 	border-radius: 15px;
 	box-shadow: 0 20px 20px 0;
 	display: flex;
-	padding: 30px 40px;
+	padding: 10px 20px;
 	position: relative;
 	margin: 100px 0;
 	z-index: 10;
@@ -29,21 +29,19 @@ body{
 }
 .img-container::after {
 	content: '';
-	background-color: #fff;
 	border-radius: 50%;
 	position: absolute;
 	height: 20px;
-	width: 20px
-	left: 50%
-	bottom:50%;
-	transform: translate(-50%, -50%);
+	width: 20px;
+	left: 50%; 
+   bottom:50%;
+   transform: translate(-50%, -50%);
 }
 .img-container img{
-	width: inherit;s
-	height: 110px
+	width: inherit;
+	height: 100px;
 	border-radius: 50%;
 	object-fit: cover;
-	position: absolute;
 	bottom: 0;
 	left: 0;
 
@@ -54,6 +52,7 @@ body{
 
 .music-container.play .img-container img{
 	animation-play-state: running;
+	border-radius: 50%;
 }
 @keyframes rotate {
 	from{
@@ -75,7 +74,7 @@ body{
 .action-btn{
 	background-color: #fff;
 	border: 0;
-	color: #dfdbdf;
+	color: #181718;
 	font-size: 20px;
 	cursor: pointer;
 	padding: 10px;
@@ -83,7 +82,7 @@ body{
 }
 
 .action-btn-big{
-	color: #cdc2d0;
+	color: #181718;
 	font-size: 30px;
 }
 .action-btn:focus{
@@ -94,7 +93,7 @@ body{
 	border-radius: 15px 15px 0 0;
 	position: absolute;
 	top: 0;
-	left: 20px
+	left: 20px;
 	width:calc(100% - 40px);
 	padding: 10px 10px 10px 150px;
 	opacity: 0;
@@ -120,9 +119,9 @@ body{
 	width: 100%;
 }
 .progress{
-	background-color: #fe8;
+	background-color: #181718;
 	border-radius: 5px;
 	height: 100%;
-	width: 50%
+	width: 50%;
 	transition:width 0.1s linear;
 }
