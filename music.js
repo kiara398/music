@@ -10,7 +10,7 @@ const cover = document.querySelector('#cover')
 
 
 //song titles
-const songs =['Adelle', 'leona','austin']
+const songs =['sam', 'tears','silence']
 
 //keep track of songs
 let songIndex = 2
@@ -21,7 +21,7 @@ loadSong(songs[songIndex])
 //update song details
 function loadSong(song){
 	title.innerText = song
-	audio.src=`jams/${song}.mp3`
+	audio.src=`songs/${song}.mp3`
 	cover.src=`images/${song}.jpg`
 }
 

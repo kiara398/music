@@ -5,7 +5,7 @@
 body{
 	height: 100vh;
 	margin: 0;
-	background-color: #03cafc;
+	background-color: #dfdbdf;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -13,7 +13,7 @@ body{
 }
 
 .music-container{
-	background-color: #8934eb;
+	background-color: #0c1327;
 	border-radius: 15px;
 	box-shadow: 0 20px 20px 0;
 	display: flex;
