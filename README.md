@@ -7,3 +7,5 @@
 ![Code Quality Score](https://www.code-inspector.com/project/29025/score/svg)
 
 ![Code Grade](https://www.code-inspector.com/project/29025/status/svg)
+
+[![GitHub issues](https://img.shields.io/github/issues/kiara398/music_player-app?style=for-the-badge)](https://github.com/kiara398/music_player-app/issues)
