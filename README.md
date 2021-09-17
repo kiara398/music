@@ -5,3 +5,5 @@
 [![Code Climate](https://codeclimate.com/github/kiara398/music_player-app.png)](https://codeclimate.com/github/kiara398/music_player-app)
 
 ![Code Quality Score](https://www.code-inspector.com/project/29025/score/svg)
+
+![Code Grade](https://www.code-inspector.com/project/29025/status/svg)
